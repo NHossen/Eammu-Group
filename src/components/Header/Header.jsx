@@ -1,9 +1,10 @@
 
 import { Link,NavLink } from 'react-router-dom';
 import logo from '../../assets/Eammu_logo.png'
+
 const Header = () => {
     return (
-        <div>
+        <div className=''>
            
 
 
@@ -35,8 +36,8 @@ const Header = () => {
     
     </div>
 
-    {/* Chack */}
     <div className="navbar bg-base-100">
+      {/* Start */}
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,37 +47,122 @@ const Header = () => {
         <li><a>Item 1</a></li>
         <li>
           <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
+          {/* Mobile Menu */}
+          <ul className="menu xl:menu-horizontal lg:min-w-max bg-base-200 rounded-box">
+  <li>
+    <a>Solutions</a>
+    <ul>
+      <li><a>Design</a></li>
+      <li><a>Development</a></li>
+      <li><a>Hosting</a></li>
+      <li><a>Domain register</a></li>
+    </ul>
+  </li>
+  <li>
+    <a>Enterprise</a>
+    <ul>
+      <li><a>CRM software</a></li>
+      <li><a>Marketing management</a></li>
+      <li><a>Security</a></li>
+      <li><a>Consulting</a></li>
+    </ul>
+  </li>
+  <li>
+    <a>Products</a>
+    <ul>
+      <li><a>UI Kit</a></li>
+      <li><a>Wordpress themes</a></li>
+      <li><a>Wordpress plugins</a></li>
+      <li>
+        <a>Open source</a>
+        <ul>
+          <li><a>Auth management system</a></li>
+          <li><a>VScode theme</a></li>
+          <li><a>Color picker app</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a>Company</a>
+    <ul>
+      <li><a>About us</a></li>
+      <li><a>Contact us</a></li>
+      <li><a>Privacy policy</a></li>
+      <li><a>Press kit</a></li>
+    </ul>
+  </li>
+</ul>
         </li>
         <li><a>Item 3</a></li>
       </ul>
     </div>
     <a className="btn btn-ghost text-xl">daisyUI</a>
   </div>
-  <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+  {/* Center */}
+  <div className="navbar-center hidden lg:flex ">
+    <ul className="menu menu-horizontal px-1 ">
       <li><a>Item 1</a></li>
       <li>
         <details>
           <summary>Parent</summary>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
+          {/* Desktop New Add */}
+          <ul className="menu xl:menu-horizontal lg:min-w-max bg-base-200 rounded-box">
+  <li>
+    <a>Solutions</a>
+    <ul>
+      <li><a>Design</a></li>
+      <li><a>Development</a></li>
+      <li><a>Hosting</a></li>
+      <li><a>Domain register</a></li>
+    </ul>
+  </li>
+  <li>
+    <a>Enterprise</a>
+    <ul>
+      <li><a>CRM software</a></li>
+      <li><a>Marketing management</a></li>
+      <li><a>Security</a></li>
+      <li><a>Consulting</a></li>
+    </ul>
+  </li>
+  <li>
+    <a>Products</a>
+    <ul>
+      <li><a>UI Kit</a></li>
+      <li><a>Wordpress themes</a></li>
+      <li><a>Wordpress plugins</a></li>
+      <li>
+        <a>Open source</a>
+        <ul>
+          <li><a>Auth management system</a></li>
+          <li><a>VScode theme</a></li>
+          <li><a>Color picker app</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a>Company</a>
+    <ul>
+      <li><a>About us</a></li>
+      <li><a>Contact us</a></li>
+      <li><a>Privacy policy</a></li>
+      <li><a>Press kit</a></li>
+    </ul>
+  </li>
+</ul>
         </details>
       </li>
       <li><a>Item 3</a></li>
     </ul>
   </div>
+  {/* End */}
   <div className="navbar-end">
     <a className="btn">Button</a>
   </div>
 </div>
 
-{/* Chack-2 */}
 
 
 
