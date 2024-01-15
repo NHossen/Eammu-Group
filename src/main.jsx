@@ -12,6 +12,7 @@ import MainRoot from './components/MainRoot/MainRoot.jsx';
 import Home from './components/Home/Home.jsx';
 import ErrorPage from './components/Errorpage/ErrorPage.jsx';
 import OurServices from './components/OurServices/OurServices.jsx';
+import EammuImmigrationServices from './components/EammuGroupWebsites/EammuImmigrationServices/EammuImmigrationServices.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path:'/contact',
         element:<Contact></Contact>
+      },
+      {
+        path:'/eammuimmigrationservices',
+        element:<EammuImmigrationServices></EammuImmigrationServices>
       },
 
     ]
