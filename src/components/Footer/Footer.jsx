@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className=''>
-           <footer className="footer p-12 ">
+           <footer className="footer">
   <nav className='text-[#696969] font-light text-[18px] '>
     <header className="text-2xl text-[#4b4b4b] font-bold mb-2">Eammu Group Websites</header> 
     <Link className='mb-[6px]' to='/'><a className="link link-hover hover:text-[#081f08] ">Eammu</a></Link>
@@ -43,8 +43,8 @@ const Footer = () => {
        
       </div>
       <div className=" gap-3 mt-3"> 
-        <Link to='/login'><h3 className="text-xl font-medium text-[#ffffff] btn btn-success">Log in</h3> </Link>
-        <Link to='/signup'><h3 className="text-xl font-medium btn btn-success">Sign Up</h3> </Link>
+        <Link to='/login'><h3 className="text-lg bg-[#072504] text-[#ffffff] hover:bg-white hover:text-[#072504] hover:shadow-md hover:border-[1.5px] hover:border-[#072504]  btn ">Log in</h3> </Link>
+        <Link to='/signup'><h3 className="btn text-lg hover:bg-[#072504] hover:text-[#ffffff] bg-white text-[#072504]  border-[1.5px] border-[#072504]">Sign Up</h3> </Link>
       </div>
     </fieldset>
   </form>

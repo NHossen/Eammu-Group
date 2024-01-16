@@ -5,10 +5,13 @@ import Footer from "../Footer/Footer";
 
 const MainRoot = () => {
     return (
-        <div>
+        <div className=" ">
             <Header></Header>
-            <Outlet></Outlet>
-            <Footer></Footer>
+            <div className="px-4 container mx-auto">
+                  <Outlet></Outlet>
+                  <Footer></Footer>
+            </div>
+          
         </div>
     );
 };
