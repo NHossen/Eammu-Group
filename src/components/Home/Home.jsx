@@ -213,9 +213,9 @@ const Home = () => {
 
       <div>
         <h1 className="my-6 text-3xl text-center font-bold">Target <span className="text-[#d33232]">USA</span> Visa Interview Preparation</h1>
-        <div className="hero min-h-[70vh] bg-base-200">
+        <div className="hero min-h-[70vh] ">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src="https://i.ibb.co/Dtg4HWy/d-ISCUSSION.jpg" alt="targetusainterviewphoto" className="max-w-md rounded-lg shadow-2xl" />
+    <img src="https://i.ibb.co/Dtg4HWy/d-ISCUSSION.jpg" alt="targetusainterviewphoto" className="lg:max-w-md rounded-lg shadow-2xl" />
     <div>
       <h1 className="text-5xl font-bold">Target <span className="text-[#d33232]">USA</span> Visa Interview Preparation!</h1>
       <p className="py-6">Target USA Visa Interview Preparation, a distinguished service under Eammu Immigration Services, is your premier education consultancy dedicated to preparing students for successful visa interviews. We specialize in comprehensive guidance, covering everything from interview dress-up to question patterns and interview types, ensuring that students are well-prepared for their crucial visa application process.</p>
@@ -227,8 +227,8 @@ const Home = () => {
 
 
       {/* Message From Managing Director */}
-      <div className="my-6 lg:flex justify-center gap-4 ">
-              <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="my-6 lg:flex flex-row justify-center gap-4 ">
+              <div className="card w-96 bg-base-100 shadow-xl mb-4">
   <figure className="px-10 pt-10">
     <img src="https://i.ibb.co/tqdt8rZ/Naeem-Hossen.jpg" alt="Naeem-Hossen" className="rounded-xl" />
   </figure>
@@ -341,28 +341,28 @@ const Home = () => {
 </div>
 
 {/* Caresoul */}
-<div className="carousel carousel-center rounded-box flex justify-center">
+<div className="carousel carousel-center rounded-box grid gap-2 lg:grid-cols-4 grid-cols-1 justify-center p-2">
   
   <div className="carousel-item">
-    <img className="w-[300px]" src="https://images.unsplash.com/photo-1590070572368-74a1e6da0a34?q=80&w=1586&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" />
+    <img className="lg:w-[300px]" src="https://images.unsplash.com/photo-1590070572368-74a1e6da0a34?q=80&w=1586&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" />
   </div> 
   <div className="carousel-item">
-    <img className="w-[300px]" src="https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" />
+    <img className="lg:w-[300px]" src="https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" />
   </div> 
   <div className="carousel-item">
-    <img className="w-[300px]" src="https://images.unsplash.com/photo-1630930195151-3b8434d19cd3?q=80&w=1567&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" />
+    <img className="lg:w-[300px]" src="https://images.unsplash.com/photo-1630930195151-3b8434d19cd3?q=80&w=1567&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" />
   </div> 
   <div className="carousel-item">
-    <img className="w-[300px]" src="https://plus.unsplash.com/premium_photo-1673285286254-d0d0e465e0fd?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" />
+    <img className="lg:w-[300px]" src="https://plus.unsplash.com/premium_photo-1673285286254-d0d0e465e0fd?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pizza" />
   </div> 
 
 
 </div>
 
             {/* Our Succsses State */}
-<div className="stats shadow flex my-12">
+<div className="grid lg:grid-cols-4 grid-cols-2 my-12">
   
-  <div className="stat place-items-center">
+  <div className="stat text-center">
     <div className="stat-title">Study Destination</div>
     <div className="stat-value">22[+]</div>
     <div className="stat-desc">From January ,2022</div>
