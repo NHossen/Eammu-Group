@@ -11,7 +11,7 @@ const Footer = () => {
     <Link className='mb-[6px]' to='/about'><a className="link link-hover hover:text-[#081f08] ">Eammu IT & Marketing Solutions</a></Link>
     <Link className='mb-[6px]' to='/about'><a className="link link-hover hover:text-[#081f08] ">Eammu Event Management</a></Link>
     <Link className='mb-[6px]' to='/about'><a className="link link-hover hover:text-[#081f08] ">Eammu Dairy & Poultry Farm</a></Link>
-    <Link className='mb-[6px]' to='/about'><a className="link link-hover hover:text-[#081f08] ">Eammu Fashion</a></Link>
+    <Link className='mb-[6px]' to='/eammufashion'><a className="link link-hover hover:text-[#081f08] ">Eammu Fashion</a></Link>
     <Link className='mb-[6px]' to='/about'><a className="link link-hover hover:text-[#081f08] ">Eammu Textile & Industry</a></Link>
   
   </nav> 

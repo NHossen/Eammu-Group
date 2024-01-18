@@ -1,5 +1,5 @@
 
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/Eammu_logo.png'
 
 const Header = () => {
@@ -132,7 +132,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-[#072504] text-[#ffffff] hover:bg-white hover:text-[#072504] hover:shadow-md hover:border-2 hover:border-[#072504] ">Enroll Now</a>
+   <Link to='/contact' ><a className="btn bg-[#072504] text-[#ffffff] hover:bg-white hover:text-[#072504] hover:shadow-md hover:border-2 hover:border-[#072504] ">Enroll Now</a></Link> 
   </div>
 </div>
 

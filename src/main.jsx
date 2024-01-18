@@ -13,6 +13,8 @@ import Home from './components/Home/Home.jsx';
 import ErrorPage from './components/Errorpage/ErrorPage.jsx';
 import OurServices from './components/OurServices/OurServices.jsx';
 import EammuImmigrationServices from './components/EammuGroupWebsites/EammuImmigrationServices/EammuImmigrationServices.jsx';
+import EammuFashion from './components/EammuGroupWebsites/EammuFashion/EammuFashion.jsx';
+import TargetUsaInterview from './components/EammuGroupWebsites/EammuImmigrationServices/TargetUsaInterview.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +41,15 @@ const router = createBrowserRouter([
       {
         path:'/eammuimmigrationservices',
         element:<EammuImmigrationServices></EammuImmigrationServices>
+      },
+      // Sub Organization of Eammu Immigration Services
+      {
+        path:'/targetusavisainterview',
+        element:<TargetUsaInterview></TargetUsaInterview>
+      },
+      {
+        path:'/eammufashion',
+        element:<EammuFashion></EammuFashion>
       },
 
     ]
