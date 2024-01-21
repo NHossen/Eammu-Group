@@ -17,10 +17,10 @@ const Footer = () => {
   </nav> 
   <nav className='text-[#696969] font-light text-[18px] ' >
     <header className="text-2xl text-[#4b4b4b] font-bold mb-2">Eammu Useful Links</header> 
-    <Link className='mb-[6px]' to='/about'><a className="link link-hover hover:text-[#081f08]  ">Eammu Newsfeeds</a></Link>
+    <Link className='mb-[6px]' to='/eammunewsfeeds'><a className="link link-hover hover:text-[#081f08]  ">Eammu Newsfeeds</a></Link>
     <Link className='mb-[6px]' to='/about'><a className="link link-hover hover:text-[#081f08] ">Eammu Recent Projects</a></Link>
     <Link className='mb-[6px]' to='/about'><a className="link link-hover hover:text-[#081f08] ">Our Leading Team</a></Link>
-    <Link className='mb-[6px]' to='/about'><a className="link link-hover hover:text-[#081f08] ">Careers</a></Link>
+    <Link className='mb-[6px]' to='/eammucareers'><a className="link link-hover hover:text-[#081f08] ">Careers</a></Link>
     <Link className='mb-[6px]' to='/about'><a className="link link-hover hover:text-[#081f08] ">Terms of use & Privacy policy </a></Link>
     <Link className='mb-[6px]' to='/about'><a className="link link-hover hover:text-[#081f08] ">Why Choice Us</a></Link>
   </nav> 
