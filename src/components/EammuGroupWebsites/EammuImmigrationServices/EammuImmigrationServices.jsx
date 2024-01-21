@@ -3,7 +3,7 @@ import Caresoul_BG_Mix from "../../Home/Caresoul_BG_Mix";
 import EammuImmigrationHeading_2 from "../../Home/EammuImmigrationHeading_2";
 import Eammu_Carousel from "../../Home/Eammu_Carousel";
 import Our_Succsses_State from "../../Home/Our_Succsses_State";
-import Services_Card_Section from "../../Home/Services_Card_Section";
+import Services_Card_Section from "../../Home/Services_Card_Section/Students_Cards";
 import TargetUsaSection from "../../Home/TargetUsaSection";
 import About_Eammu_Immigration from "./About_Eammu_Immigration";
 import Immigration_Header_Section from "./Immigration_Header_Section";

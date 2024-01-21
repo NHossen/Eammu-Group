@@ -1,0 +1,148 @@
+[
+    {
+      "id": 1,
+      "countryName": "United States",
+      "universityName": "Harvard University",
+      "title": "Harvard Experience",
+      "image": "https://example.com/harvard_image.jpg",
+      "scholarships": "Merit-based",
+      "description": "Renowned Ivy League university in Cambridge, Massachusetts.",
+      "requirements": "TOEFL/IELTS, SAT/GRE, Letters of Recommendation",
+      "contactInfo": {
+        "email": "admissions@harvard.edu",
+        "phone": "+1-617-495-1551"
+      },
+      "programs": ["Computer Science", "Business Administration", "Law"],
+      "applicationDeadline": "December 15, 2024",
+      "tuitionFees": {
+        "domestic": "$48,949",
+        "international": "$51,191"
+      },
+      "admissionStatistics": {
+        "acceptanceRate": "4.6%",
+        "averageGRE": 335,
+        "averageGPA": 3.94
+      },
+      "accommodation": {
+        "onCampus": true,
+        "offCampus": "Numerous housing options available nearby."
+      }
+    },
+    {
+      "id": 2,
+      "countryName": "United Kingdom",
+      "universityName": "University of Oxford",
+      "title": "Oxford Experience",
+      "image": "https://example.com/oxford_image.jpg",
+      "scholarships": "Need-based",
+      "description": "Prestigious university located in Oxford, England.",
+      "requirements": "IELTS/TOEFL, A-Levels, Personal Statement",
+      "contactInfo": {
+        "email": "admissions@ox.ac.uk",
+        "phone": "+44-1865-270000"
+      },
+      "programs": ["Physics", "History", "Economics"],
+      "applicationDeadline": "January 10, 2025",
+      "tuitionFees": {
+        "domestic": "£9,250",
+        "international": "£24,750"
+      },
+      "admissionStatistics": {
+        "acceptanceRate": "7.1%",
+        "averageIELTS": 7.5,
+        "averageA-Levels": "AAA"
+      },
+      "accommodation": {
+        "onCampus": true,
+        "offCampus": "Various housing options within the city."
+      }
+    },
+    {
+      "id": 3,
+      "countryName": "Canada",
+      "universityName": "University of Toronto",
+      "title": "Toronto Excellence",
+      "image": "https://example.com/toronto_image.jpg",
+      "scholarships": "Merit-based",
+      "description": "Leading Canadian institution situated in Toronto, Ontario.",
+      "requirements": "TOEFL/IELTS, High School Diploma, Resume",
+      "contactInfo": {
+        "email": "admissions@utoronto.ca",
+        "phone": "+1-416-978-2011"
+      },
+      "programs": ["Engineering", "Psychology", "Political Science"],
+      "applicationDeadline": "January 31, 2025",
+      "tuitionFees": {
+        "domestic": "$6,100",
+        "international": "$46,680"
+      },
+      "admissionStatistics": {
+        "acceptanceRate": "11.3%",
+        "averageTOEFL": 100,
+        "averageGPA": 3.87
+      },
+      "accommodation": {
+        "onCampus": true,
+        "offCampus": "Diverse housing options in the city."
+      }
+    },
+    {
+      "id": 4,
+      "countryName": "Australia",
+      "universityName": "University of Sydney",
+      "title": "Sydney Insight",
+      "image": "https://example.com/sydney_image.jpg",
+      "scholarships": "Merit-based",
+      "description": "Renowned institution in Sydney, Australia.",
+      "requirements": "IELTS/TOEFL, High School Diploma, Personal Statement",
+      "contactInfo": {
+        "email": "admissions@sydney.edu.au",
+        "phone": "+61-2-9351-2222"
+      },
+      "programs": ["Medicine", "Engineering", "International Business"],
+      "applicationDeadline": "February 28, 2025",
+      "tuitionFees": {
+        "domestic": "AUD 37,000",
+        "international": "AUD 46,000"
+      },
+      "admissionStatistics": {
+        "acceptanceRate": "9.5%",
+        "averageIELTS": 7.0,
+        "averageGPA": 3.75
+      },
+      "accommodation": {
+        "onCampus": true,
+        "offCampus": "Various housing options near the university."
+      }
+    },
+    {
+      "id": 5,
+      "countryName": "Germany",
+      "universityName": "Technical University of Munich",
+      "title": "Munich Tech Hub",
+      "image": "https://example.com/munich_image.jpg",
+      "scholarships": "Merit-based",
+      "description": "Leading technical university in Munich, Germany.",
+      "requirements": "TOEFL/IELTS, Bachelor's Degree, Letter of Motivation",
+      "contactInfo": {
+        "email": "admissions@tum.de",
+        "phone": "+49-89-289-01"
+      },
+      "programs": ["Computer Engineering", "Biotechnology", "Architecture"],
+      "applicationDeadline": "March 15, 2025",
+      "tuitionFees": {
+        "domestic": "€1,000",
+        "international": "€8,000"
+      },
+      "admissionStatistics": {
+        "acceptanceRate": "12.8%",
+        "averageTOEFL": 105,
+        "averageGPA": 3.82
+      },
+      "accommodation": {
+        "onCampus": true,
+        "offCampus": "Options available in the city center."
+      }
+    }
+  ]
+  

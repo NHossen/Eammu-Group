@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "countryName": "United States",
+      "visaType": "Tourist Visa",
+      "title": "Explore the USA",
+      "image": "https://example.com/usa_tourist_visa.jpg",
+      "processingTime": "2 weeks",
+      "requirements": "Valid passport, completed application form, proof of funds",
+      "fees": {
+        "application": "$160",
+        "expeditedProcessing": "$500"
+      },
+      "contactInfo": {
+        "embassyEmail": "consular@usembassy.gov",
+        "embassyPhone": "+1-202-555-1212"
+      },
+      "additionalInfo": "Tourist visas allow you to explore the diverse attractions of the United States."
+    },
+    {
+      "id": 2,
+      "countryName": "United Kingdom",
+      "visaType": "Tourist Visa",
+      "title": "Discover Britain",
+      "image": "https://example.com/uk_tourist_visa.jpg",
+      "processingTime": "3 weeks",
+      "requirements": "Valid passport, completed visa application form, travel itinerary",
+      "fees": {
+        "application": "£95",
+        "priorityProcessing": "£220"
+      },
+      "contactInfo": {
+        "embassyEmail": "visa@ukembassy.gov",
+        "embassyPhone": "+44 20 1234 5678"
+      },
+      "additionalInfo": "Explore the rich history and culture of the United Kingdom with a tourist visa."
+    },
+    {
+      "id": 3,
+      "countryName": "Australia",
+      "visaType": "Tourist Visa",
+      "title": "Enjoy Down Under",
+      "image": "https://example.com/aus_tourist_visa.jpg",
+      "processingTime": "1 month",
+      "requirements": "Valid passport, visa application form, return flight ticket",
+      "fees": {
+        "application": "AUD 140",
+        "expressProcessing": "AUD 1,000"
+      },
+      "contactInfo": {
+        "embassyEmail": "consular@ausembassy.gov",
+        "embassyPhone": "+61 2 1234 5678"
+      },
+      "additionalInfo": "Experience the beauty of Australia with a tourist visa."
+    },
+    {
+        "id": 4,
+        "countryName": "Canada",
+        "visaType": "Tourist Visa",
+        "title": "Maple Adventure",
+        "image": "https://example.com/canada_tourist_visa.jpg",
+        "processingTime": "4 weeks",
+        "requirements": "Valid passport, completed visa application form, proof of accommodation",
+        "fees": {
+          "application": "CAD 100",
+          "rushProcessing": "CAD 250"
+        },
+        "contactInfo": {
+          "embassyEmail": "visas@canadaembassy.gov",
+          "embassyPhone": "+1-613-555-6789"
+        },
+        "additionalInfo": "Explore the stunning landscapes and vibrant cities of Canada with a tourist visa."
+      },
+      {
+        "id": 5,
+        "countryName": "France",
+        "visaType": "Tourist Visa",
+        "title": "Bonjour Paris",
+        "image": "https://example.com/france_tourist_visa.jpg",
+        "processingTime": "2 weeks",
+        "requirements": "Valid passport, completed visa application form, travel insurance",
+        "fees": {
+          "application": "€80",
+          "urgentProcessing": "€150"
+        },
+        "contactInfo": {
+          "embassyEmail": "info@franceembassy.gov",
+          "embassyPhone": "+33 1 2345 6789"
+        },
+        "additionalInfo": "Immerse yourself in the art, culture, and cuisine of France with a tourist visa."
+      },
+      {
+        "id": 6,
+        "countryName": "Japan",
+        "visaType": "Tourist Visa",
+        "title": "Land of the Rising Sun",
+        "image": "https://example.com/japan_tourist_visa.jpg",
+        "processingTime": "2 weeks",
+        "requirements": "Valid passport, visa application form, hotel reservation",
+        "fees": {
+          "application": "¥6,000",
+          "expeditedProcessing": "¥10,000"
+        },
+        "contactInfo": {
+          "embassyEmail": "consular@japanembassy.gov",
+          "embassyPhone": "+81 3 1234 5678"
+        },
+        "additionalInfo": "Experience the unique blend of tradition and modernity in Japan with a tourist visa."
+      }
+  ]
+  
