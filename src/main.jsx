@@ -14,7 +14,7 @@ import ErrorPage from './components/Errorpage/ErrorPage.jsx';
 import OurServices from './components/OurServices/OurServices.jsx';
 import EammuImmigrationServices from './components/EammuGroupWebsites/EammuImmigrationServices/EammuImmigrationServices.jsx';
 import EammuFashion from './components/EammuGroupWebsites/EammuFashion/EammuFashion.jsx';
-import TargetUsaInterview from './components/EammuGroupWebsites/EammuImmigrationServices/TargetUsaInterview.jsx';
+import TargetUsaInterview from './components/EammuGroupWebsites/EammuImmigrationServices/TargetUsaInterview/TargetUsaInterview.jsx';
 import EammuNewsfeeds from './components/EammuUsefulLinks/EammuNewsfeeds/EammuNewsfeeds.jsx';
 import EammuCareers from './components/EammuUsefulLinks/EammuCareers/EammuCareers.jsx';
 import SignUp from './components/SignupLogin/SignUp/SignUp.jsx';
