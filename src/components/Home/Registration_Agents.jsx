@@ -4,7 +4,7 @@ const Registration_Agents = () => {
     return (
         <div className="mb-12">
             <div className="card lg:card-side bg-base-100 shadow-xl">
-  <figure><img className="lg:w-[400px]" src="/public/Final Proposal For Agentship.jpg" alt="Album"/></figure>
+  <figure><img className="lg:w-[400px]" src="https://i.ibb.co/9GWRJvf/agentship.jpg" alt="eammuimmigrationservicesagent"/></figure>
   <div className="card-body">
     <h2 className="card-title">Eammu Immigration Services Gives Agentship in Bangladesh</h2>
     <p className="mt-6">বেকার বসে আছেন? ৫০% এজেন্টশিপে ট্রাভেল এজেন্সী ব্যবসা করুন কোন ইনভেস্ট ছাড়াই! <br /><br /> 🚀 ট্রাভেল এজেন্সী ব্যবসায় একটি ভালো ক্যারিয়ারের স্বপ্ন দেখছেন? আপনার সুযোগ এখানেই!🚀 <br /><br />ইয়াম্মু ইমিগ্রেশন সার্ভিস এর সাথে সর্বোচ্চ কমিশনে টিকেট এবং ভিসা করুন

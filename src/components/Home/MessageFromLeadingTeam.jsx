@@ -6,7 +6,7 @@ const MessageFromLeadingTeam = () => {
             <div className="my-6 lg:flex flex-row justify-center gap-4 ">
 <div className="card w-96 bg-base-100 shadow-xl mb-4">
 <figure className="px-10 pt-10">
-<img src="https://i.ibb.co/tqdt8rZ/Naeem-Hossen.jpg" alt="Naeem-Hossen" className="rounded-xl" />
+<img src="https://i.ibb.co/tqdt8rZ/Naeem-Hossen.jpg" alt="naeem_hossen_managingdirectorof_eammuimmigrationservices" className="rounded-xl" />
 </figure>
 <div className="card-body items-center text-center">
 <h1 className="card-title">Naeem Hossen</h1>
