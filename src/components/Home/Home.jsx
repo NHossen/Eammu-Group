@@ -5,9 +5,10 @@ import EammuImmigrationHeading_2 from "./EammuImmigrationHeading_2";
 import Eammu_Carousel from "./Eammu_Carousel";
 import MessageFromLeadingTeam from "./MessageFromLeadingTeam";
 import Our_Succsses_State from "./Our_Succsses_State";
+import Registration_Agents from "./Registration_Agents";
 import Students_Cards from "./Services_Card_Section/Students_Cards";
-import Tourist_Visa_Cards from "./Services_Card_Section/Tourist_Visa_Cards";
-import Work_Visa_Cards from "./Services_Card_Section/Work_Visa_Cards";
+import Tourist_Visa_Cards from "./Services_Card_Section/Tourist_visa/Tourist_Visa_Cards";
+import Work_Visa_Cards from "./Services_Card_Section/Work_visa/Work_Visa_Cards";
 import TargetUsaSection from "./TargetUsaSection";
 import WhyChoiceEammu from "./WhyChoiceEammu";
 
@@ -30,6 +31,9 @@ const Home = () => {
 
       {/* Target Usa Visa Interview Preparation */}
       <TargetUsaSection></TargetUsaSection>
+
+      {/* Registration With Eammu As A Agents */}
+      <Registration_Agents></Registration_Agents>
 
       {/* Message From Leading Team */}
       <MessageFromLeadingTeam></MessageFromLeadingTeam>

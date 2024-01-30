@@ -1,10 +1,10 @@
 [
     {
       "id": 1,
-      "countryName": "United States",
+      "countryName": "Travel To United States",
       "visaType": "Tourist Visa",
       "title": "Explore the USA",
-      "image": "https://example.com/usa_tourist_visa.jpg",
+      "image": "https://tamarathiessen.com/wp-content/uploads/2021/08/US-TRAVEL.jpg",
       "processingTime": "2 weeks",
       "requirements": "Valid passport, completed application form, proof of funds",
       "fees": {
@@ -19,10 +19,10 @@
     },
     {
       "id": 2,
-      "countryName": "United Kingdom",
+      "countryName": "Travel To United Kingdom",
       "visaType": "Tourist Visa",
       "title": "Discover Britain",
-      "image": "https://example.com/uk_tourist_visa.jpg",
+      "image": "https://www.libertytravel.com/sites/default/files/styles/full_size/public/uk%20tours-hero.jpg?itok=bSMZOnnB",
       "processingTime": "3 weeks",
       "requirements": "Valid passport, completed visa application form, travel itinerary",
       "fees": {
@@ -37,15 +37,15 @@
     },
     {
       "id": 3,
-      "countryName": "Australia",
+      "countryName": " Travel To Schengen Country",
       "visaType": "Tourist Visa",
-      "title": "Enjoy Down Under",
-      "image": "https://example.com/aus_tourist_visa.jpg",
+      "title": "The Schengen Visa is a visa that allows travelers to visit multiple countries within the Schengen Area, which includes 27 European countries ",
+      "image": "https://www.schengenvisaitinerary.com/blog/wp-content/uploads/2019/07/blog-post-copy-785x520.jpg",
       "processingTime": "1 month",
       "requirements": "Valid passport, visa application form, return flight ticket",
       "fees": {
-        "application": "AUD 140",
-        "expressProcessing": "AUD 1,000"
+        "application": "€80",
+        "expressProcessing": "€150"
       },
       "contactInfo": {
         "embassyEmail": "consular@ausembassy.gov",
@@ -55,10 +55,10 @@
     },
     {
         "id": 4,
-        "countryName": "Canada",
+        "countryName": "Travel To Canada",
         "visaType": "Tourist Visa",
         "title": "Maple Adventure",
-        "image": "https://example.com/canada_tourist_visa.jpg",
+        "image": "https://www.immigration.ca/wp-content/uploads/2021/12/Canada-immigration_378179980-scaled-1-768x452.jpeg",
         "processingTime": "4 weeks",
         "requirements": "Valid passport, completed visa application form, proof of accommodation",
         "fees": {
@@ -71,30 +71,13 @@
         },
         "additionalInfo": "Explore the stunning landscapes and vibrant cities of Canada with a tourist visa."
       },
+
       {
         "id": 5,
-        "countryName": "France",
-        "visaType": "Tourist Visa",
-        "title": "Bonjour Paris",
-        "image": "https://example.com/france_tourist_visa.jpg",
-        "processingTime": "2 weeks",
-        "requirements": "Valid passport, completed visa application form, travel insurance",
-        "fees": {
-          "application": "€80",
-          "urgentProcessing": "€150"
-        },
-        "contactInfo": {
-          "embassyEmail": "info@franceembassy.gov",
-          "embassyPhone": "+33 1 2345 6789"
-        },
-        "additionalInfo": "Immerse yourself in the art, culture, and cuisine of France with a tourist visa."
-      },
-      {
-        "id": 6,
-        "countryName": "Japan",
+        "countryName": "Travel To Japan",
         "visaType": "Tourist Visa",
         "title": "Land of the Rising Sun",
-        "image": "https://example.com/japan_tourist_visa.jpg",
+        "image": "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg",
         "processingTime": "2 weeks",
         "requirements": "Valid passport, visa application form, hotel reservation",
         "fees": {

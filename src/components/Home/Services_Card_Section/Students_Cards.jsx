@@ -5,6 +5,9 @@ import Student_Visa from "./Student_visa/Student_Visa";
 const Students_Cards = () => {
     const [students,setStudents]=useState([]);
 
+    // Show All Button Data Selection
+    const [dataLength,setDataLength]=useState(3);
+
     useEffect(()=>{
         fetch('studentvisa.json')
         .then(res=>res.json())
@@ -13,25 +16,21 @@ const Students_Cards = () => {
     return (
         <div>
                   {/* Student visa */}
-<h1 className="text-center text-4xl font-bold my-6">Students Favorite Top Countries for Higher Education: {students.length}</h1>
+<h1 className="text-center text-4xl font-bold my-6">Students Favorite Top Countries for Higher Education</h1>
 
-<div>
+{/* Formating */}
+<div className="grid lg:grid-cols-3 gap-4">
      {
-        students.map(student=> <Student_Visa key={student.id} student={student}></Student_Visa>)
+        students.slice(0,dataLength).map(student=> <Student_Visa key={student.id} student={student}></Student_Visa>)
      }
 </div>
-<div>
-<div className="card card-compact w-96 bg-base-100 shadow-xl">
-<figure><img src="https://img.freepik.com/free-photo/medium-shot-smiley-people-with-american-flag_23-2149383053.jpg?w=826&t=st=1705764083~exp=1705764683~hmac=ea4eda8f86424c4cf167c4fd0e8ee520cf0341e4237f21f8f1a4d4135eaee432" alt="Shoes" /></figure>
-<div className="card-body">
-<h2 className="card-title">Study In Usa</h2>
-<p>If a dog chews shoes whose shoes does he choose?</p>
-<div className="card-actions">
-<button className="btn btn-primary">Learn More</button>
+<div className="flex justify-center my-3">
+    <div className={dataLength === students.length && 'hidden'}>
+     <button onClick={()=>setDataLength(students.length)} className="hover:shadow-[#122712] hover:shadow-lg btn text-lg hover:bg-[#072504] hover:text-[#ffffff] bg-white text-[#072504]  border-[1.5px] border-[#072504]">See All</button>   
+    </div>
+    
 </div>
-</div>
-</div>
-</div>
+
         </div>
     );
 };

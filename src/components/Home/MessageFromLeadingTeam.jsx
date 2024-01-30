@@ -18,7 +18,7 @@ const MessageFromLeadingTeam = () => {
 <dialog id="my_modal_11" className="modal modal-bottom sm:modal-middle">
 <div className="modal-box">
 <h3 className="font-bold text-lg">Welcome To Eammu Immigration Services</h3>
-<p className="py-4">Press ESC key or click the button below to close</p>
+<p className="py-4">At Eammu Immigration Services, we take pride in offering premium student visa services, ensuring that students have a seamless and efficient process when applying for visas to pursue their education abroad. Our team is dedicated to providing comprehensive support and guidance to students, making their visa application experience as smooth as possible. <br /><br />In addition to our premium student visa services, we also specialize in providing a wide range of visa services for various purposes. Whether it's for tourism, business, or other travel needs, our team is committed to assisting individuals in obtaining the necessary visas for their specific requirements. <br /> <br />At Eammu Immigration Services, we prioritize customer satisfaction and strive to exceed expectations in delivering reliable and professional visa services. Our experienced and knowledgeable staff is here to assist you throughout the entire visa application process, ensuring that you have the support you need at every step.</p>
 <div className="modal-action">
 <form method="dialog">
 {/* if there is a button in form, it will close the modal */}
@@ -44,7 +44,7 @@ const MessageFromLeadingTeam = () => {
 <dialog id="my_modal_11" className="modal modal-bottom sm:modal-middle">
 <div className="modal-box">
 <h3 className="font-bold text-lg">Welcome To Eammu Immigration Services</h3>
-<p className="py-4">Press ESC key or click the button below to close</p>
+<p className="py-4">At Eammu Immigration Services, we take pride in offering premium student visa services, ensuring that students have a seamless and efficient process when applying for visas to pursue their education abroad. Our team is dedicated to providing comprehensive support and guidance to students, making their visa application experience as smooth as possible. <br /><br />In addition to our premium student visa services, we also specialize in providing a wide range of visa services for various purposes. Whether it's for tourism, business, or other travel needs, our team is committed to assisting individuals in obtaining the necessary visas for their specific requirements. <br /> <br />At Eammu Immigration Services, we prioritize customer satisfaction and strive to exceed expectations in delivering reliable and professional visa services. Our experienced and knowledgeable staff is here to assist you throughout the entire visa application process, ensuring that you have the support you need at every step.</p>
 <div className="modal-action">
 <form method="dialog">
 {/* if there is a button in form, it will close the modal */}

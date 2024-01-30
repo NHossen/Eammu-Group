@@ -19,6 +19,7 @@ import EammuNewsfeeds from './components/EammuUsefulLinks/EammuNewsfeeds/EammuNe
 import EammuCareers from './components/EammuUsefulLinks/EammuCareers/EammuCareers.jsx';
 import SignUp from './components/SignupLogin/SignUp/SignUp.jsx';
 import LogIn from './components/SignupLogin/LogIn/LogIn.jsx';
+import Details_More from './components/Home/Services_Card_Section/Student_visa/Details_More.jsx';
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path:'/eammuimmigrationservices',
         element:<EammuImmigrationServices></EammuImmigrationServices>
+      },
+      {
+        path:'/university_details/:id',
+        element:<Details_More></Details_More>,
       },
       // Sub Organization of Eammu Immigration Services
       {
